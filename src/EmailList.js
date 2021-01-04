@@ -1,6 +1,7 @@
 import { Checkbox,Icon,IconButton } from '@material-ui/core';
 import React from 'react';
 import './EmailList.css';
+import EmailRow from './EmailRow'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import RedoIcon from '@material-ui/icons/Redo';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
@@ -61,7 +62,9 @@ function EmailList() {
 
            <div className="emailList_lst">
 
-               
+            <EmailRow title="Twitch" subject="Hey fellas welcome"
+            description="This is a test" time="14:25pm" />
+
            </div>
         </div>
     )
