@@ -64,6 +64,10 @@ function EmailList() {
 
             <EmailRow title="Twitch" subject="Hey fellas welcome"
             description="This is a test" time="14:25pm" />
+               <EmailRow title="Youtube" subject="Hey guys welcome"
+            description="This is a test2" time="12:25pm" />
+               <EmailRow title="Instagram" subject="Hey buddies welcome"
+            description="This is a test3" time="1:25pm" />
 
            </div>
         </div>
