@@ -18,8 +18,16 @@ import Button from '@material-ui/core/Button';
                 <input type="text"/>
                 <input type="text"/>
 
-                <div className="sendMailOpti">
-                    <Button variant="contained" color="primary">Send</Button>
+                <div className="sendMailOptions">
+                    
+                    <Button className="SendButton" 
+                    variant="contained" 
+                    color="primary" 
+                    type="submit"
+
+                    >  
+                    Send
+                   </Button>
                 </div>
             </form>
         </div>
