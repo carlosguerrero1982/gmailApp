@@ -51,6 +51,6 @@
     outline: none;
 }
 
-.sendMailOptions {
-    min-height: 40%;
+.sendMailInput3 {
+    flex: 1;
 }
