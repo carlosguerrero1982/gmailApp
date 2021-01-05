@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Mail from './Mail';
+import SendMail from './SendMail';
 import EmailList from './EmailList';
 import {
   BrowserRouter as Router,
@@ -22,18 +23,20 @@ function App() {
       <div className="app_body">
 
       <Sidebar />
+
+      <Switch>
           <Route path="/mail">
             <Mail />
+           
           </Route>
 
           <Route path="/">
            <EmailList />
           </Route>
-      <Switch>
-
-
       </Switch>
       </div>
+
+      <SendMail />
     </div>
     </Router>
   );
