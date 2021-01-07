@@ -27,6 +27,7 @@
 
 .header_middle>.MuiSvgIcon-root {
     color: gray;
+    cursor: pointer;
 }
 
 .header_middle>input {
