@@ -54,3 +54,10 @@
 .sendMailInput3 {
     flex: 1;
 }
+
+.toSendMail {
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 2px;
+}
